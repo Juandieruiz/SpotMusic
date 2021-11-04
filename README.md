@@ -45,6 +45,11 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 9. Modificamos nuestra app para que componentes como SideBar y Tracks esten disponibles a la misma vez.
 
+10. en el template inicial, configuramos el css de nuestro track para darle la posición correcta
+
+11. exportaremos modulos en el Shared para poder hacer uso de los componentes Media Player y Header
+
+
 
 
 

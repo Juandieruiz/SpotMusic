@@ -17,6 +17,8 @@ import { RouterModule } from '@angular/router';
   ],
   exports: [
     SideBarComponent,
+    MediaPlayerComponent,
+    HeaderUserComponent
   ]
 })
 export class SharedModule { }
