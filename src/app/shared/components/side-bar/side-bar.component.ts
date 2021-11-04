@@ -13,7 +13,7 @@ export class SideBarComponent implements OnInit {
   } = { defaultOptions: [], accessLink: [] }
 
   customOptions: Array<any> = []
-
+ 
   constructor(private router: Router) { }
 
   ngOnInit(): void {

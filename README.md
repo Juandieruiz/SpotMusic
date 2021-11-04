@@ -39,7 +39,7 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 * Como parte de clean code, modificamos el tsconfig.json y agregamos path, @core, @module, @shared *
 
-
+7. Creación del SideBar y modificaciones en el mismo componente
 
 
 

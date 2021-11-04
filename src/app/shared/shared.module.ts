@@ -5,7 +5,6 @@ import { MediaPlayerComponent } from './components/media-player/media-player.com
 import { HeaderUserComponent } from './components/header-user/header-user.component';
 
 
-
 @NgModule({
   declarations: [
     SideBarComponent,
