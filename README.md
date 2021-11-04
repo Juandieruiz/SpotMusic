@@ -41,6 +41,8 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 7. Creación del SideBar y modificaciones en el mismo componente
 
+8. Creación de componentes en cada page y agregamos un nuevo modulo "favorite" con routing y su page
+
 
 
 
