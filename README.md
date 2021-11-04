@@ -49,6 +49,7 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 11. exportaremos modulos en el Shared para poder hacer uso de los componentes Media Player y Header
 
+12. En el Componente MediaPlayer modificaremos el HTML,CSS,TS, Esto para conseguir que el componente quede configurado
 
 
 

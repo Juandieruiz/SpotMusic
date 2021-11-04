@@ -1,1 +1,64 @@
-<p>media-player works!</p>
+<div class="media-player">
+    <div class="media-player--wrapper ">
+
+        <!-- TODO: Vamos A dividir toda la barra inferior en 3 zonas para nuestro Media Player -->
+        <!-- *Haremos uso de la etiqueta Ng-Container, la cual llamara al template creado para cada Zona -->
+
+        <!--Zona del artista-->
+        <div class="artist player-center">
+            <ng-container *ngTemplateOutlet="artistZone"></ng-container>
+        </div>
+
+        <!--Zona del reproductor-->
+        <div class="player-controls player-center">
+            <ng-container *ngTemplateOutlet="playerZone"></ng-container>
+        </div>
+
+        <!--Zona del controles adicionales-->
+        <div class="player-audio player-center">
+            <ng-container *ngTemplateOutlet="playerAudio"></ng-container>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ZONE TEMPLATES -->
+<!-- * Aqui estan nuestros 3Ng-Templates, a la espera de ser llamados -->
+
+<!-- Zona del artista -->
+<ng-template #artistZone>
+    <div class="artist-inside" *ngIf="true">
+
+        <img [src]="mockCover.cover" alt="" class="cover">
+        <div class="track-info">
+            <h3 class="track-title">{{mockCover.name}}</h3>
+            <h5 class="track-title sub-title">{{mockCover.album}}</h5>
+        </div>
+        <div class="track-like">
+            <button class="btn-like">
+                <i class="uil uil-heart"></i>
+            </button>
+        </div>
+    </div> 
+</ng-template>
+
+<!-- Zona del reproductor -->
+<ng-template #playerZone>
+    <!-- Aqui va el Servicio conectado -->
+</ng-template> 
+
+<!-- Zona de Controles Adicionales -->
+<ng-template #playerAudio>
+    <div class="player-audio-inside">
+        <button class="btn-media">
+            <i class="uil uil-list-ui-alt"></i>
+        </button>
+        <button class="btn-media">
+            <i class="uil uil-boombox"></i>
+        </button>
+        <button class="btn-media">
+            <i class="uil uil-volume-off"></i>
+        </button>
+    </div>
+</ng-template>
