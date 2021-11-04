@@ -43,6 +43,7 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 8. Creación de componentes en cada page y agregamos un nuevo modulo "favorite" con routing y su page
 
+9. Modificamos nuestra app para que componentes como SideBar y Tracks esten disponibles a la misma vez.
 
 
 
