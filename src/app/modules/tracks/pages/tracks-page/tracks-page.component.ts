@@ -6,7 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tracks-page.component.css']
 })
 export class TracksPageComponent implements OnInit {
-
+  
+  mockTracksList = [
+    {
+      name: 'Music 1',
+    },
+    {
+      name: 'Music 2',
+    },
+    {
+      name: 'Music 3',
+    },
+  ]
   constructor() { }
 
   ngOnInit(): void {

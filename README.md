@@ -51,6 +51,9 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 12. En el Componente MediaPlayer modificaremos el HTML,CSS,TS, Esto para conseguir que el componente quede configurado
 
+13. Crearemos los componentes para las tarjetas de cada cancion y usuario en
+
+
 
 
 

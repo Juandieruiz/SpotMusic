@@ -22,7 +22,9 @@ import { SectionGenericComponent } from './components/section-generic/section-ge
   exports: [
     SideBarComponent,
     MediaPlayerComponent,
-    HeaderUserComponent
+    HeaderUserComponent,
+    CardPlayerComponent,
+    SectionGenericComponent
   ]
 })
 export class SharedModule { }
