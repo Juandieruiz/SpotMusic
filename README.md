@@ -61,7 +61,9 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 17. Insertamos html y Css para el diseño del card player, nuestro paso a seguir es el ts para hacerlo funcionar.
 
-18. 
+18. Agregamos el mode y el track en nuestra vista, para que se vieran los espacios en la vista.
+
+19. Con el diseño del card player terminado podremos obtener los datos obtenidos en la vista.
 
 
 
