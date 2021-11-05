@@ -57,7 +57,9 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 15. Ahora en vez de llamar a cada track o "paquete de datos(nombre,album...)" lo que haremos será llamar al componente card player, para que sea lo que vean los usuarios.
 
-16. 
+16. Modificamos el Diseño del Section generic.css, para obtener la base de nuestra web
+
+17. Insertamos html y Css para el diseño del card player, nuestro paso a seguir es el ts para hacerlo funcionar.
 
 
 
