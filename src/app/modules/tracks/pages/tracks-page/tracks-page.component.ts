@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+// importamos todas las Canciones que hemos metido de manera manual
+import * as dataSongs from '../../../../data/tracks.json' 
 @Component({
   selector: 'app-tracks-page',
   templateUrl: './tracks-page.component.html',
@@ -8,19 +10,14 @@ import { Component, OnInit } from '@angular/core';
 export class TracksPageComponent implements OnInit {
   
   mockTracksList = [
-    {
-      name: 'Music 1',
-    },
-    {
-      name: 'Music 2',
-    },
-    {
-      name: 'Music 3',
-    },
+
   ]
   constructor() { }
 
   ngOnInit(): void {
+    // Creamos una lista de objetos con los datos de la cancion y lo imprimimos por consola
+    const data:any = (dataSongs as any).default
+    console.log(data)
   }
 
 }

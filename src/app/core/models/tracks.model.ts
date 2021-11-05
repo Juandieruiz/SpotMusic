@@ -6,9 +6,7 @@ export interface TrackModel {
     name: string;
     album: string;
     cover: string;
-    duration: number;
     url: string;
-    likes: number;
-    _id: string;
+    _id: string | number;
     artist?: ArtistModel;
 }
