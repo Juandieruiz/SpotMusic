@@ -126,6 +126,18 @@
                 "end": 333
             },
             "url": "http://localhost:3000/track-7.mp3"
+        },
+        {
+            "_id": 9,
+            "name": "Juan Diego Gómez",
+            "album": "Juandieruiz",
+            "cover": "IMAGEN DE LA FOTO",
+            "artist": {
+                "name": "Juandieruiz",
+                "nickname": "Juandieruiz",
+                "nationality": "CO"
+            },
+            "url":"URL DE LA CANCION"
         }
     ]
 }
