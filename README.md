@@ -61,6 +61,8 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 17. Insertamos html y Css para el diseño del card player, nuestro paso a seguir es el ts para hacerlo funcionar.
 
+18. 
+
 
 
 
