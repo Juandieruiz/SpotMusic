@@ -55,6 +55,10 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 14. Ahora lo que hacemos es inyectar los datos, mediante un Json para al menos poder obtenerlos en Consola, en la cual nos deben aparecer como Array
 
+15. Ahora en vez de llamar a cada track o "paquete de datos(nombre,album...)" lo que haremos será llamar al componente card player, para que sea lo que vean los usuarios.
+
+16. 
+
 
 
 

@@ -4,6 +4,7 @@
     <div class="section--generic__player--zone">
         <ul class="player--list" [ngClass]="{'card-small':mode === 'small','card-big':mode === 'big'}">
             <li *ngFor="let player of dataTracks">
+                <!-- Importacion de los datos de Artistas -->
                 <app-card-player></app-card-player>
             </li>
         </ul>
