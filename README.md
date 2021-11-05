@@ -53,7 +53,7 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 13. Crearemos los componentes para las tarjetas de cada cancion, en el primer caso, nosotros le insertaremos los datos de manera manual, para comprobar si llegan los datos a la web
 
-
+14. Ahora lo que hacemos es inyectar los datos, mediante un Json para al menos poder obtenerlos en Consola, en la cual nos deben aparecer como Array
 
 
 

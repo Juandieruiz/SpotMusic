@@ -16,7 +16,7 @@ export class TracksPageComponent implements OnInit {
 
   ngOnInit(): void {
     // Creamos una lista de objetos con los datos de la cancion y lo imprimimos por consola
-    const data:any = (dataSongs as any).default
+    const { data } :any = (dataSongs as any).default
     console.log(data)
   }
 
