@@ -46,9 +46,6 @@
     object-fit: cover;
 }
 
-.cover-section .cover-info {
-    padding: 0 1rem;
-}
 
 .cover-section .cover-info .name-track-details {
     font-size: 80%;
