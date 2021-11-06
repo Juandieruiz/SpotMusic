@@ -65,6 +65,7 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 19. Con el diseño del card player terminado podremos obtener los datos obtenidos en la vista.
 
+20. Empezaremos con el modulo favorites para ello, configuramos el routing para poder obtener nuestro mismo sideBar, pero que cambie de componente en la sectionGeneric
 
 
 
