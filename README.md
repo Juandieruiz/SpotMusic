@@ -71,7 +71,7 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 22. Agregamos HTML y CSS para el playlist header
 
-23. 
+23. Agregamos HTML,CSS,TS para el playlist body, esto para poder obtener nuestro modulo de favorites terminado
 
 
 
