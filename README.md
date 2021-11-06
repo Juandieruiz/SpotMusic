@@ -67,6 +67,12 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 20. Empezaremos con el modulo favorites para ello, configuramos el routing para poder obtener nuestro mismo sideBar, pero que cambie de componente en la sectionGeneric
 
+21. Creamos dos componentes nuevos playlistbody,playlistheader, estos iran dedicados para el modulo favorites(Canciones que le gusten al usuario)
+
+22. Agregamos HTML y CSS para el playlist header
+
+23. 
+
 
 
 
