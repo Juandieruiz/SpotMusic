@@ -8,6 +8,7 @@ import { CardPlayerComponent } from './components/card-player/card-player.compon
 import { SectionGenericComponent } from './components/section-generic/section-generic.component';
 import { PlayListHeaderComponent } from './components/play-list-header/play-list-header.component';
 import { PlayListBodyComponent } from './components/play-list-body/play-list-body.component';
+import { OrderListPipe } from './pipe/order-list.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PlayListBodyComponent } from './components/play-list-body/play-list-bod
     CardPlayerComponent,
     SectionGenericComponent,
     PlayListHeaderComponent,
-    PlayListBodyComponent
+    PlayListBodyComponent,
+    OrderListPipe
   ],
   imports: [
     CommonModule,
@@ -30,7 +32,8 @@ import { PlayListBodyComponent } from './components/play-list-body/play-list-bod
     CardPlayerComponent,
     SectionGenericComponent,
     PlayListHeaderComponent,
-    PlayListBodyComponent
+    PlayListBodyComponent,
+    OrderListPipe
   ]
 })
 export class SharedModule { }
