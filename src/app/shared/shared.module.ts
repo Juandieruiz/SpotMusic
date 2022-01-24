@@ -21,7 +21,7 @@ import { PlayListBodyComponent } from './components/play-list-body/play-list-bod
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
   ],
   exports: [
     SideBarComponent,

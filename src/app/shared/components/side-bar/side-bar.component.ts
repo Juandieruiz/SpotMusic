@@ -26,13 +26,13 @@ export class SideBarComponent implements OnInit {
       {
         name: 'Buscar',
         icon: 'uil uil-search',
-        router: ['/', 'history']
+        router: ['/', 'history'] // TODO: http://localhost:4200/history
       },
       {
         name: 'Tu biblioteca',
         icon: 'uil uil-chart',
         router: ['/', 'favorites'],
-        query: { hola: 'mundo' }
+        query:{hola:'mundo'}
       }
     ]
 
