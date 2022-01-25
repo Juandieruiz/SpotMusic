@@ -9,6 +9,7 @@ import { SectionGenericComponent } from './components/section-generic/section-ge
 import { PlayListHeaderComponent } from './components/play-list-header/play-list-header.component';
 import { PlayListBodyComponent } from './components/play-list-body/play-list-body.component';
 import { OrderListPipe } from './pipe/order-list.pipe';
+import { ImgBrokenDirective } from './directives/img-broken.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { OrderListPipe } from './pipe/order-list.pipe';
     SectionGenericComponent,
     PlayListHeaderComponent,
     PlayListBodyComponent,
-    OrderListPipe
+    OrderListPipe,
+    ImgBrokenDirective
   ],
   imports: [
     CommonModule,
@@ -33,7 +35,8 @@ import { OrderListPipe } from './pipe/order-list.pipe';
     SectionGenericComponent,
     PlayListHeaderComponent,
     PlayListBodyComponent,
-    OrderListPipe
+    OrderListPipe,
+    ImgBrokenDirective
   ]
 })
 export class SharedModule { }
