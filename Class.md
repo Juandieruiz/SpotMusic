@@ -79,7 +79,12 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
 
 - Metodo changeSort para cambiar el orden de la lista
 
+26. Directiva: Creamos una directiva para que cuando una imagen no cargue o se rompa, se muestre una imagen por defecto.
 
+27. Formularios Reactivos: 
+    -AuthRoutingmodule: 
+        -Formulario de Login
+        -Formulario de Registro
 
 
 
