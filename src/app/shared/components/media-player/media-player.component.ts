@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TrackModel } from '@core/models/tracks.model';
+import { MultimediaService } from '../../services/multimedia.service';
 
 @Component({
   selector: 'app-media-player',
@@ -15,9 +16,14 @@ export class MediaPlayerComponent implements OnInit {
     url: 'https://www.youtube.com/watch?v=5-_q-_q-_q-_',
     _id: '5e8f9c9c9c9c9c9c9c9c9c9'
 }
-  constructor() { }
+  constructor(private _multimediaService: MultimediaService) { }
 
   ngOnInit(): void {
+    const observer1$ = this._multimediaService.callback.subscribe(
+      (response: TrackModel) => {
+        console.log('Recibiendo cancion' + response)
+      }
+    );
   }
 
 }

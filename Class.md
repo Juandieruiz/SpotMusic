@@ -86,6 +86,7 @@ en el Readme, agregaremos los pasos seguidos para la perfecta ejecución de la p
         -Formulario de Login
         -Formulario de Registro
 
+28. Servicios: Estamos creando el servicio creado desde el login page, para autentificar las credenciales del usuario y poder acceder a la aplicacion, despues usamos el multimediaService para hacer uso de los metodos de la clase multimedia
 
 
 
