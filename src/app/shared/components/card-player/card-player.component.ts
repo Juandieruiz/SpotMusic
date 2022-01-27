@@ -7,7 +7,7 @@ import { MultimediaService } from '../../services/multimedia.service';
   templateUrl: './card-player.component.html',
   styleUrls: ['./card-player.component.css']
 })
-export class CardPlayerComponent implements OnInit {
+export class CardPlayerComponent implements OnInit{
 
   @Input() mode:'small' | 'big' = 'small';
 
@@ -25,7 +25,7 @@ export class CardPlayerComponent implements OnInit {
 
   sendPlay(track: TrackModel): void {
     console.log('Enviando canción al reproductor.... ' + track)
-    // this._multimediaService.callback.emit(track);
+    this._multimediaService.callback.emit(track);
   }
 
 
