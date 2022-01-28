@@ -10,19 +10,13 @@ import * as dataSongs from '../../../../data/tracks.json'
 })
 export class TracksPageComponent implements OnInit {
   
-  mockTracksList: Array<TrackModel> = [
-    
-  ]
+  tracksTrending: Array<TrackModel> = []
+  tracksRandom: Array<TrackModel> = []
   constructor() { }
 
   ngOnInit(): void {
 
-    // Creamos una lista de objetos con los datos de la cancion y lo imprimimos por consola
-    const { data } :any = (dataSongs as any).default
-    // Le asignamos a la lista de canciones el valor de la variable data
-    this.mockTracksList = data;
-    // TODO: Comprobacion de obtención de datos en Consola
-    // console.log(data)
+    
   }
 
 }
